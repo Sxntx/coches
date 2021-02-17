@@ -1,4 +1,4 @@
-
+<footer class="mt-auto" class="footer">
 <div class="container-fluid bg-light pt-3 pb-3">
   <div class="row">
     <div class="col-md-4 text-center">
@@ -13,10 +13,11 @@
   </div>
 </div>
 
-	<div class="footer-bottom">
-		<i class="fa fa-copyright"></i> Copyright 2021. All rights reserved.<br> made by <a href="#">Santi, Ankush & Viçent</a>
-	</div>
-		
-</footer>
-</body>
+			<div class="footer-bottom">
+				<i class="fa fa-copyright"></i> Copyright 2021. All rights reserved.<br>
+				made by <a href="#">Santi, Ankush & Viçent</a>
+			</div>
+		</footer>
+
+	</body>
 </html>
