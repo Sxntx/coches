@@ -6,14 +6,14 @@ $('a[id=hd]').removeAttr('hidden');
 <div class="container mt-3">
   <div class="row">
     <div class="col-12 h1  d-flex  justify-content-center">
-      Let us know your suggestion
+      Send us your suggestion
     </div>
   </div>
   <div class="row mt-5">
     <div class="col-12 text-center">
       <form class="" action="{{url('savesuggestion')}}" method="get">
           <textarea type=""  name="sugerencia" rows="10" cols="40" placeholder="I want let you know about..."></textarea>
-          <br><input type="submit" class="btn btn-info mt-3" value="Send">
+          <br><input type="submit" class="btn btn-success mt-3" value="Send">
       </form>
     </div>
   </div>
@@ -25,11 +25,11 @@ $('a[id=hd]').removeAttr('hidden');
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12 ">
+    <div class="col-md-12 text-center">
     <iframe allowfullscreen=""
               aria-hidden="false"
               class="map" frameborder="1" height="auto" src="https://maps.google.com/maps?hl=es&amp;q=Histenstrasse+(class)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" tabindex="0"
-              width="100%"></iframe>
+              width="80%"></iframe>
     </div>
   </div>
 
