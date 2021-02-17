@@ -1,3 +1,5 @@
+<!--Lo que te digo es que aqui llamas a un footer que ya tengo creado  he incluido en todas las paginas ,
+lo mismo pasa con el header checkealo porfi-->
 <footer class="mt-auto" class="footer">
 <div class="container-fluid bg-light pt-3 pb-3">
   <div class="row">

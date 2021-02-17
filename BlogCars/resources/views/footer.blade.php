@@ -16,7 +16,7 @@
 	<div class="footer-bottom">
 		<i class="fa fa-copyright"></i> Copyright 2021. All rights reserved.<br> made by <a href="#">Santi, Ankush & Viçent</a>
 	</div>
-		
+
 </footer>
 </body>
 </html>

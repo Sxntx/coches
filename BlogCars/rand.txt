@@ -1,11 +1,12 @@
+// 1Head.blade
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     		<link rel="icon" href="{{asset('images/Logo.jpg')}}">
-    
+
    	<title>About</title>
-    
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -13,7 +14,7 @@
 
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	   
+
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -33,7 +34,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ url('about')}}" id="hd" >About</a>
-            
+
           </li>
           <li class="nav-item">
             <a class="nav-link " href="{{ url('sugerencias')}}" id="hd" >Suggestions</a>
@@ -41,10 +42,10 @@
         </ul>
       </div>
     </nav>
-    
+
     <style type="text/css">
-    
-    
+
+
 /*- Footer -*/
 footer {
 	padding: 0;
@@ -83,8 +84,7 @@ footer .footer-bottom {
 }
 
 
-    
-    
+
+
     </style>
   </head>
-

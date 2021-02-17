@@ -4,10 +4,10 @@
     <meta charset="utf-8">
 
     		<link rel="icon" href="{{asset('images/Logo.jpg')}}">
-    
+
 		<link href="{{asset('css/jquery.bxslider.css')}}" rel="stylesheet">
 		<link href="{{asset('css/style.css')}}" rel="stylesheet">
-		    
+
     		<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
@@ -44,7 +44,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ url('about')}}" id="hd" >About</a>
-            
+
           </li>
           <li class="nav-item">
             <a class="nav-link " href="{{ url('sugerencias')}}" id="hd" >Suggestions</a>
@@ -53,6 +53,6 @@
       </div>
     </nav>
 
-    
+
   </head>
   <body class="d-flex flex-column min-vh-100">
