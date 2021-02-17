@@ -13,13 +13,13 @@ lo mismo pasa con el header checkealo porfi-->
       <a href="#"  onclick="alert('Conditions alert')">Conditions</a>
     </div>
   </div>
-</div>
-
-			<div class="footer-bottom">
+  <div class="row">
+    <div class="col-12 text-center">
 				<i class="fa fa-copyright"></i> Copyright 2021. All rights reserved.<br>
 				made by <a href="#">Santi, Ankush & Viçent</a>
-			</div>
+    </div>
+  </div>
+</div>
 		</footer>
-
 	</body>
 </html>

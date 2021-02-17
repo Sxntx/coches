@@ -1,19 +1,13 @@
 @include('header')
-<<<<<<< HEAD
             <div class="row">
                 <div class="col-md-12" >
                     <article class="blog-post">
                         <div class="blog-post-body">
-                            <h2>HELLO & WELCOME TO OUR BLOG</h2>
+                            <h2 class="text-center mt-4">HELLO & WELCOME TO OUR BLOG</h2>
                         </div>
                     </article>
                 </div>
             </div>
-
-
-
-=======
->>>>>>> dragón
 <div class="container mt-3">
   <div class="row text-center">
     <div class="col-12 h1">
@@ -21,8 +15,6 @@
     </div>
   </div>
 </div>
-
-<<<<<<< HEAD
 
 <div class="container-fluid">
   <div class="row">
@@ -37,17 +29,9 @@
     </div>
   </div>
 </div>
-
-
-
-
 <div class="container mt-4">
-
         <div class="row">
                   <div class="col-md-12">
-
-
-
             <div class="col-md-6">
                 <aside>
                     <div class="sidebar-widget">
@@ -67,16 +51,12 @@
 								acabado en la galaxia, que todavía se encuentra en guerra. Una Nueva República ha
 								surgido, aunque su gobierno es frágil.
 							</p>
-
-
-
                         </div>
                     </div>
                </aside>
                </div>
 
                  <div class="col-md-6">
-
                     <div class="sidebar-widget">
                         <h3 class="sidebar-title">Publicaciones Destacadas</h3>
                         <div class="widget-container">
@@ -128,56 +108,12 @@
                                 <a href="https://www.gmail.com" target="_blank"><i class="fa fa-google-plus"></i></a>
                                 <a href="https://dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a>
                                 <a href="https://www.reddit.com/" target="_blank"><i class="fa fa-reddit"></i></a>
-                            </div>
                         </div>
-
+                  </div>
             </div>
-
-
         </div>
     </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-=======
-<div class="container mt-4">
-  <div class="row">
-    <div class="col-md-4 text-center">
-      <img src="mercedes.jpg" alt="mercedes" height="250px" width="300px">
-    </div>
-    <div class="col-md-4 text-center">
-      <img src="audi.jpg" alt="audi" height="250px" width="300px">
-    </div>
-    <div class="col-md-4 text-center">
-      <img src="tesla.jpg" alt="tesla" height="250px" width="300px">
-    </div>
   </div>
 </div>
->>>>>>> dragón
-<div class="container">
-  <div class="row mt-3">
-    <div class="col-12 h2 text-center">
-      This is our WebPage abour €P¡C K@R$
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12 text-center">
-      <p>The best cars in the world are made in the United States of America!!</p>
-      <p>Tesla, Lamborghini, Ferrari... We make lots and lots of cars...</p>
-      <p>And all cars are made with chinese pieces!!</p>
-      <p>Buy a plastic car for 100 times the original price!</p>
-
-    </div>
-  </div>
-</div>
-
+<hr style="margin-bottom:10%;">
 @include('footer')
