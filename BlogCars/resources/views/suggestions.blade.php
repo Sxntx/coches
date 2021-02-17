@@ -12,7 +12,17 @@ $('a[id=hd]').removeAttr('hidden');
   <div class="row mt-5">
     <div class="col-12 text-center">
       <form class="" action="{{url('savesuggestion')}}" method="get">
-          <textarea type=""  name="sugerencia" rows="10" cols="40" placeholder="I want let you know about..."></textarea>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <input type="text" name="fname" placeholder="First Name" class="form-control border border-dark">
+            </div>
+            <div class="col-md-12 col-sm-12 mt-3">
+              <input type="text" name="lname" placeholder="Last Name" class="form-control border border-dark">
+            </div>
+          </div>
+        </div>
+          <textarea type=""  name="sugerencia" rows="5" cols="40" placeholder="I want let you know about..." class="border border-dark rounded"></textarea>
           <br><input type="submit" class="btn btn-success mt-3" value="Send">
       </form>
     </div>

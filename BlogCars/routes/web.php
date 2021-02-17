@@ -5,6 +5,9 @@ use App\Http\Controllers\InicioController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CarsController;
 use App\Http\Controllers\SuggestionsController;
+
+//to allow use email code
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +23,5 @@ Route::get('/', InicioController::class);
 Route::get('/cars', CarsController::class);
 Route::get('/about', AboutController::class);
 Route::get('/sugerencias', SuggestionsController::class);
+//mail
+Route::get('/mail', MailController::class);
