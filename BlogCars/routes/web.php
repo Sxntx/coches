@@ -22,7 +22,6 @@ use App\Http\Controllers\MailController;
 */
 
 Route::get('/', InicioController::class);
-
 Route::get('/cars', CarsController::class);
 Route::get('/about', AboutController::class);
 Route::get('/sugerencias', SuggestionsController::class);
