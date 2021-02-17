@@ -1,7 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InicioController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\CarsController;
+use App\Http\Controllers\SuggestionsController;
+use App\Http\Controllers\MailController;
 
+//to allow use email code; Added to its controller
+//use App\Mail\SendSuggest;
+//use Illuminate\Suppost\Facades\Mail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +21,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', InicioController::class);
+
+Route::get('/cars', CarsController::class);
+Route::get('/about', AboutController::class);
+Route::get('/sugerencias', SuggestionsController::class);
+//mail
+Route::get('/mail', MailController::class);
