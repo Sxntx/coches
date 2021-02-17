@@ -21,16 +21,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="{{ url('main') }}" id="hd" hidden>Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ url('/') }}" id="hd" >Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url('libros')}}" id="hd" hidden>Books</a>
+            <a class="nav-link" href="{{ url('cars')}}" id="hd" >Cars</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url('biografia')}}" id="hd" hidden>Biography</a>
+            <a class="nav-link" href="{{ url('about')}}" id="hd" >About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="{{ url('sugerencias')}}" id="hd" hidden>Suggestions</a>
+            <a class="nav-link " href="{{ url('sugerencias')}}" id="hd" >Suggestions</a>
           </li>
         </ul>
       </div>
