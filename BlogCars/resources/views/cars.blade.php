@@ -4,6 +4,11 @@
   <head>
     <meta charset="utf-8">
     <title>Cochessss!!!!</title>
+    <style media="screen">
+      .carousel{
+        height: 620px;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
