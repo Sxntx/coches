@@ -5,6 +5,7 @@ use App\Http\Controllers\InicioController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CarsController;
 use App\Http\Controllers\SuggestionsController;
+use App\Http\Controllers\MailController;
 
 //to allow use email code; Added to its controller
 //use App\Mail\SendSuggest;
