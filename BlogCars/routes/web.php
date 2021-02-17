@@ -6,8 +6,9 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CarsController;
 use App\Http\Controllers\SuggestionsController;
 
-//to allow use email code
-
+//to allow use email code; Added to its controller
+//use App\Mail\SendSuggest;
+//use Illuminate\Suppost\Facades\Mail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
