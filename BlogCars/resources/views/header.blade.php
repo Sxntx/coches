@@ -28,6 +28,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ url('about')}}" id="hd" >About</a>
+            
           </li>
           <li class="nav-item">
             <a class="nav-link " href="{{ url('sugerencias')}}" id="hd" >Suggestions</a>

@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InicioController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\CarsController;
+use App\Http\Controllers\SuggestionsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,3 +17,6 @@ use App\Http\Controllers\InicioController;
 */
 
 Route::get('/', InicioController::class);
+Route::get('/cars', CarsController::class);
+Route::get('/about', AboutController::class);
+Route::get('/sugerencias', SuggestionsController::class);
