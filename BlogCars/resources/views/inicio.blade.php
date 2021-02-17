@@ -1,4 +1,5 @@
 @include('header')
+<<<<<<< HEAD
             <div class="row">
                 <div class="col-md-12" >
                     <article class="blog-post">
@@ -11,6 +12,8 @@
 
 
 
+=======
+>>>>>>> dragón
 <div class="container mt-3">
   <div class="row text-center">
     <div class="col-12 h1">
@@ -19,6 +22,7 @@
   </div>
 </div>
 
+<<<<<<< HEAD
 
 <div class="container-fluid">
   <div class="row">
@@ -144,6 +148,21 @@
 
 
 
+=======
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <img src="mercedes.jpg" alt="mercedes" height="250px" width="300px">
+    </div>
+    <div class="col-md-4 text-center">
+      <img src="audi.jpg" alt="audi" height="250px" width="300px">
+    </div>
+    <div class="col-md-4 text-center">
+      <img src="tesla.jpg" alt="tesla" height="250px" width="300px">
+    </div>
+  </div>
+</div>
+>>>>>>> dragón
 <div class="container">
   <div class="row mt-3">
     <div class="col-12 h2 text-center">
