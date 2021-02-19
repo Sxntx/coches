@@ -7,7 +7,7 @@
                 <div class="col-md-12" style="margin-top: 2%;">
                     <article class="blog-post">
                         <div class="blog-post-body">
-                            <h2>HELLO & WELCOME TO OUR BLOG</h2>
+                            <h2  style="text-align: center !important;">HELLO & WELCOME TO OUR BLOG</h2>
                         </div>
                     </article>
                 </div>
@@ -27,14 +27,12 @@
     </div>
   </div>
 </div>
+<br><br><br><br>
 
 
 <div class="container">
 
-        <div class="row">
-                  <div class="col-md-12" style="margin-top: 10%;">
-  
-            
+        <div class="row">            
             <!--=====================================================================================-->
             <div class="col-md-6">
                 <aside>
@@ -102,7 +100,6 @@
                                 </div>
                             </article>
 
-                        </div>
                     </div>
                     
                     
@@ -110,21 +107,24 @@
                         <h3 class="sidebar-title">Socials</h3>
                         <div class="widget-container">
                             <div class="widget-socials">
-                                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa fa-twitter"></i></a>
-                                <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fa fa-instagram"></i></a>
-                                <a href="https://www.gmail.com" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                <a href="https://dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a>
-                                <a href="https://www.reddit.com/" target="_blank"><i class="fa fa-reddit"></i></a>
+                            	<img alt="" src="css/images/fb.png">
+                            	<img alt="" src="css/images/instagram.png">
+                                                        <img alt="" src="css/images/tw.png">
+                                                        <img alt="" src="css/images/lin.png">
+                            
                             </div>
                         </div>
-                    
-            </div>
-        
+                    </div>   
 
         </div>
     </div>
 </div>
+</div>
+
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
 
 
 
