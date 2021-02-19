@@ -1,3 +1,10 @@
-@include('header')
+@extends("layouts.plantillaAbout")
 
-@include('footer')
+@section("head")
+@endsection
+
+@section("contenido")
+@endsection
+
+@section("footer")
+@endsection

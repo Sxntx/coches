@@ -1,5 +1,3 @@
-<!--Lo que te digo es que aqui llamas a un footer que ya tengo creado  he incluido en todas las paginas ,
-lo mismo pasa con el header checkealo porfi-->
 <footer class="mt-auto" class="footer">
 <div class="container-fluid bg-light pt-3 pb-3">
   <div class="row">
@@ -13,13 +11,13 @@ lo mismo pasa con el header checkealo porfi-->
       <a href="#"  onclick="alert('Conditions alert')">Conditions</a>
     </div>
   </div>
-  <div class="row">
-    <div class="col-12 text-center">
+</div>
+
+			<div class="footer-bottom">
 				<i class="fa fa-copyright"></i> Copyright 2021. All rights reserved.<br>
 				made by <a href="#">Santi, Ankush & Viçent</a>
-    </div>
-  </div>
-</div>
+			</div>
 		</footer>
+
 	</body>
 </html>
