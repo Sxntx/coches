@@ -1,37 +1,41 @@
 @include('header')
+
+
+      <!--=====================================================================================-->
+        <section>
             <div class="row">
-                <div class="col-md-12" >
+                <div class="col-md-12" style="margin-top: 2%;">
                     <article class="blog-post">
                         <div class="blog-post-body">
-                            <h2 class="text-center mt-4">HELLO & WELCOME TO OUR BLOG</h2>
+                            <h2>HELLO & WELCOME TO OUR BLOG</h2>
                         </div>
                     </article>
                 </div>
             </div>
-<div class="container mt-3">
-  <div class="row text-center">
-    <div class="col-12 h1">
-      Best blog cars ever.
+        </section>
+     
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <img src="mercedes.jpg" alt="mercedes" height="250px" width="300px">
+    </div>
+    <div class="col-md-4 text-center">
+      <img src="audi.jpg" alt="audi" height="250px" width="300px">
+    </div>
+    <div class="col-md-4 text-center">
+      <img src="tesla.jpg" alt="tesla" height="250px" width="300px">
     </div>
   </div>
 </div>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-4">
-      <img src="mercedes.jpg" alt="mercedes" width="100%">
-    </div>
-    <div class="col-md-4">
-      <img src="audi.jpg" alt="audi" width="100%">
-    </div>
-    <div class="col-md-4">
-      <img src="tesla.jpg" alt="tesla"  width="100%">
-    </div>
-  </div>
-</div>
-<div class="container mt-4">
+
+<div class="container">
+
         <div class="row">
-                  <div class="col-md-12">
+                  <div class="col-md-12" style="margin-top: 10%;">
+  
+            
+            <!--=====================================================================================-->
             <div class="col-md-6">
                 <aside>
                     <div class="sidebar-widget">
@@ -40,23 +44,27 @@
                             <h4><a href="{{url('/')}}">Ankush, Santi & Viçent</a></h4>
                             <div class="author-title">Bloggers</div>
                             <p>Este Blog se ha hecho explicitamente para la practica Laravel Final del curso DWES.</p><br>
-
+                            
                             <h2><strong>Esto es algo de texto:</strong></h2>
                             <p>
                             	Han pasado más de treinta años desde la caída del Imperio Galáctico, derrotado por la Alianza
 								Rebelde. Luke Skywalker (Mark Hamill) ha desaparecido, pero existe un mapa que revela
 								dónde se encuentra el último guerrero Jedi con vida. Muchos de los héroes de antes,
-								Leia (Carrie Fisher), Han Solo (Harrison Ford), Chewbacca, R2-D2 y C-3PO, todavía
-								están activos y luchan en la resistencia. Y es que la tiranía y la opresión no han
-								acabado en la galaxia, que todavía se encuentra en guerra. Una Nueva República ha
+								Leia (Carrie Fisher), Han Solo (Harrison Ford), Chewbacca, R2-D2 y C-3PO, todavía 
+								están activos y luchan en la resistencia. Y es que la tiranía y la opresión no han 
+								acabado en la galaxia, que todavía se encuentra en guerra. Una Nueva República ha 
 								surgido, aunque su gobierno es frágil.
 							</p>
+                            
+                            
+                            
                         </div>
                     </div>
                </aside>
                </div>
-
+               
                  <div class="col-md-6">
+                    
                     <div class="sidebar-widget">
                         <h3 class="sidebar-title">Publicaciones Destacadas</h3>
                         <div class="widget-container">
@@ -96,8 +104,8 @@
 
                         </div>
                     </div>
-
-
+                    
+                    
                     <div class="sidebar-widget">
                         <h3 class="sidebar-title">Socials</h3>
                         <div class="widget-container">
@@ -108,12 +116,24 @@
                                 <a href="https://www.gmail.com" target="_blank"><i class="fa fa-google-plus"></i></a>
                                 <a href="https://dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a>
                                 <a href="https://www.reddit.com/" target="_blank"><i class="fa fa-reddit"></i></a>
+                            </div>
                         </div>
-                  </div>
+                    
             </div>
+        
+
         </div>
     </div>
-  </div>
 </div>
-<hr style="margin-bottom:10%;">
+
+
+
+
+
+
+
+
+
+
+
 @include('footer')
