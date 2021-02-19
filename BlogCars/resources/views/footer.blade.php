@@ -1,4 +1,4 @@
-
+<footer class="mt-auto" class="footer">
 <div class="container-fluid bg-light pt-3 pb-3">
   <div class="row">
     <div class="col-md-4 text-center">
